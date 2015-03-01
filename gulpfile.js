@@ -47,10 +47,12 @@ gulp.task('default', ['browser-sync', 'styles'], function () {
 
 	// Watch for any CSS changes.
 	gulp.watch(paths.css, ['styles']);
+
+	// Watch for any html changes.
 	gulp.watch(paths.html).on('change', reload);
 
-	// add browserSync.reload to the tasks array to make
-	// all browsers reload after tasks are complete.
-	gulp.watch(paths.js, ['jshint', browserSync.reload]);
+	// Watch for any javascript changes.
+	// Run jshint and then trigger browserSync.reload.
+	gulp.watch(paths.js, ['jshint', reload]);
 
 });
