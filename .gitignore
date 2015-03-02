@@ -1,9 +1,3 @@
-# Webstorm, Phpstorm.
-.idea/
-
-# npm
-node_modules
-
 # OS X
 .DS_Store
 
@@ -11,5 +5,17 @@ node_modules
 Thumbs.db
 Desktop.ini
 
-# Other files to ignore.
+# Webstorm, Phpstorm.
+.idea/
+
+# Dependency directory
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
+node_modules
+
+# Logs
+logs
 *.log
+
+# SASS
+.sass-cache
+*.css.map
