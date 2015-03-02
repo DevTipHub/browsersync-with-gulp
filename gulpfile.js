@@ -5,6 +5,7 @@ var gulp = require('gulp'),
 var browserSync = require('browser-sync'),
 	reload = browserSync.reload;
 
+// Note: 'public/**/*.xyz' includes sub-folders.
 var paths = {
 	css: ['public/sass/styles.scss'],
 	html: ['public/**/*.html'],
