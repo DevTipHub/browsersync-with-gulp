@@ -1,8 +1,5 @@
-# browsersync-with-gulp
-From the article: Add BrowserSync to your Gulp workflow
+# Add BrowserSync to your Gulp workflow
 
-## Installation Steps
+This is the example code demonstrating various methods of interacting with BrowserSync via Gulp.
 
-npm install -g browser-sync
-
-sudo npm install
+Please view the <a href="http://devtiphub.com/add-browsersync-to-your-gulp-workflow/" target="_blank">article</a> for more information.
