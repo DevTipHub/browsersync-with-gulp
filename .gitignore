@@ -1,0 +1,15 @@
+# Webstorm, Phpstorm.
+.idea/
+
+# npm
+node_modules
+
+# OS X
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Other files to ignore.
+*.log
