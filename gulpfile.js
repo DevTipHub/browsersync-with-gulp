@@ -43,7 +43,7 @@ gulp.task('styles', function () {
 		.pipe(reload({stream: true}));
 });
 
-gulp.task('default', ['browser-sync', 'styles'], function () {
+gulp.task('default', ['browser-sync', 'jshint', 'styles'], function () {
 
 	// Watch for any CSS changes.
 	gulp.watch(paths.css, ['styles']);
