@@ -12,12 +12,12 @@ var paths = {
 };
 
 // Set the BrowserSync configuration.
-gulp.task('browser-sync', function() {
+gulp.task('bsconfig', function () {
 	// Server Config.
 	browserSync({
 		server: './public',
 		notify: false,
-		open: true,
+		open: false,
 		port: 3000
 	});
 
@@ -43,7 +43,7 @@ gulp.task('styles', function () {
 		.pipe(reload({stream: true}));
 });
 
-gulp.task('default', ['browser-sync', 'jshint', 'styles'], function () {
+gulp.task('default', ['bsconfig', 'jshint', 'styles'], function () {
 
 	// Watch for any CSS changes.
 	gulp.watch(paths.css, ['styles']);

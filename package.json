@@ -1,7 +1,8 @@
 {
-  "name": "BrowserSyncDemo",
+  "name": "BrowserSync-Demo",
   "version": "0.0.1",
   "devDependencies": {
+    "browser-sync": "^2.2.1",
     "gulp": "^3.8.11",
     "gulp-jshint": "^1.9.2",
     "gulp-ruby-sass": "^1.0.0-alpha.3",
